@@ -5,7 +5,7 @@ Senior Web Developer coding challenge.
 
 ## The Challenge
 
-- Fork your own branch of this repo
+- Fork this repo
 - Set up your boiler plate
 - Display a 5 day forecast for your location with tempratures and icons using the front end framework of your choice
 
