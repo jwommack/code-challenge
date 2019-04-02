@@ -4,7 +4,7 @@
 Senior Web Developer coding challenge.
 
 ## The Challenge
-You have 90 minutes to complete as much of this challange as you can
+You have 90 minutes to complete as much of this challange as you can.
 
 - Fork this repo 
 - Set up your boiler plate
