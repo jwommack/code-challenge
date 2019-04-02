@@ -1,13 +1,17 @@
 ![Dutch Bros](https://files.dutchbros.com/StaticImages/Dutch_Bros_Logo.png)
 
 # Code Challenge
-Coding challenge for Senior Web Developer position
+Senior Web Developer coding challenge.
 
 ## The Challenge
-[API - MetaWeather](https://www.metaweather.com/api/)
 
-Display a 5 day forecast for your location with tempratures and icons using the front end framework of your choice.
+- Fork your own branch of this repo
+- Set up your boiler plate
+- Display a 5 day forecast for your location with tempratures and icons using the front end framework of your choice
+
 Below are the required libraries for this test, anything else is up to you.
+
+[API - MetaWeather](https://www.metaweather.com/api/)
 
 ## Prerequisites
 
