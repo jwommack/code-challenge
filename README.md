@@ -21,8 +21,8 @@ Below are the required libraries for this test, you are welcome to use any other
 
 ## Extra Credit
 
-* React [React](https://reactjs.org/)
-* State Management [mobx](https://github.com/mobxjs/mobx)
+* [React](https://reactjs.org/)
+* State Management ([mobx](https://github.com/mobxjs/mobx))
 * Styling Framework (Material, Bootstrap, etc...)
 * Documentation (README.md, code comments)
 * Tests (Jest, Mocha, etc...)
