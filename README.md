@@ -25,4 +25,4 @@ Below are the required libraries for this challenge, you are welcome to use any 
 * State Management ([mobx](https://github.com/mobxjs/mobx))
 * Styling Framework (Material, Bootstrap, etc...)
 * Documentation (README.md, code comments)
-* Tests (Jest, Mocha, etc...)
+* Testing (Jest, Mocha, etc...)
