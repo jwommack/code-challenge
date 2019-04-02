@@ -17,7 +17,7 @@ Below are the required libraries for this challenge, you are welcome to use any 
 
 * [Node](https://nodejs.org/en/)
 * [Express](https://expressjs.com/)
-* [API - MetaWeather](https://www.metaweather.com/api/) Example API (you may choose a different one)
+* [API - MetaWeather](https://www.metaweather.com/api/) - Example API (you may choose a different one)
 
 ## Extra Credit
 
