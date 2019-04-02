@@ -14,11 +14,6 @@ Below are the required libraries for this test, anything else is up to you.
 * [Node](https://nodejs.org/en/)
 * [Express](https://expressjs.com/)
 
-## Tech Stack
-
-* Node - Server side language
-* Express - Web server
-
 ## Extra Credit
 
 * React
