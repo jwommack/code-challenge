@@ -4,25 +4,23 @@
 Senior Web Developer coding challenge.
 
 ## The Challenge
-You have 90 minutes to complete as much of this challange as you can.
+You have 24 hours to complete this challange.
 
 - Fork this repo 
 - Set up your dependencies
-- Display a 5 day forecast for your location with tempratures and icons using the front end framework of your choice
-- Ability to search and display the 5 day forcast for any other city
-- Show previous searches in a list format
+- Display the data given to you from the database in a meaningful way
 
 ## Prerequisites
 Below are the required libraries for this challenge, you are welcome to use any other external libraries you see fit to accomplish this task.
 
 * [Node](https://nodejs.org/en/)
 * [Express](https://expressjs.com/)
-* [API - MetaWeather](https://www.metaweather.com/api/) - Example API (you may choose a different one)
+* [React](https://reactjs.org/)
+* [mobx](https://github.com/mobxjs/mobx)
 
 ## Extra Credit
 
 * [React](https://reactjs.org/)
-* State Management ([mobx](https://github.com/mobxjs/mobx))
 * Styling Framework (Material, Bootstrap, etc...)
 * Documentation (README.md, code comments)
 * Testing (Jest, Mocha, etc...)
