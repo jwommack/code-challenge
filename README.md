@@ -23,8 +23,8 @@ Below are the required libraries for this challenge, you are welcome to use any 
 
 ## Extra Credit
 
-* [React](https://reactjs.org/) - Keep in mind we are a React dev shop
-* State Management ([mobx](https://github.com/mobxjs/mobx)) - This is the state managment we use in our projects
-* Styling Framework (Material, Bootstrap, etc...) - We use Styled Components with Material-UI
-* Documentation (README.md, code comments) - Commented code makes all of our lives easier
-* Testing (Jest, Mocha, etc...) - Test driven development is de-way
+* [React](https://reactjs.org/) - `Keep in mind we are a React dev shop`
+* State Management ([mobx](https://github.com/mobxjs/mobx)) - `This is the state managment we use in our projects`
+* Styling Framework (Material, Bootstrap, etc...) - `We use Styled Components with Material-UI`
+* Documentation (README.md, code comments) - `Commented code makes all of our lives easier`
+* Testing (Jest, Mocha, etc...) - `Test driven development is de-way`
