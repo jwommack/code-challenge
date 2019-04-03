@@ -15,12 +15,11 @@ Below are the required libraries for this challenge, you are welcome to use any 
 
 * [Node](https://nodejs.org/en/)
 * [Express](https://expressjs.com/)
-* [React](https://reactjs.org/)
-* [mobx](https://github.com/mobxjs/mobx)
 
 ## Extra Credit
 
 * [React](https://reactjs.org/)
+* State Management ([mobx](https://github.com/mobxjs/mobx))
 * Styling Framework (Material, Bootstrap, etc...)
 * Documentation (README.md, code comments)
 * Testing (Jest, Mocha, etc...)
