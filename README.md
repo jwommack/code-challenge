@@ -16,6 +16,11 @@ Below are the required libraries for this challenge, you are welcome to use any 
 * [Node](https://nodejs.org/en/)
 * [Express](https://expressjs.com/)
 
+## Getting Started
+
+* `git clone https://github.com/DutchBros/code-challenge.git`
+* `yarn` - Install dependencies
+
 ## Extra Credit
 
 * [React](https://reactjs.org/)
