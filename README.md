@@ -15,6 +15,7 @@ Below are the required libraries for this challenge, you are welcome to use any 
 
 * [Node](https://nodejs.org/en/)
 * [Express](https://expressjs.com/)
+* [Sequelize](http://docs.sequelizejs.com/)
 
 ## Getting Started
 
