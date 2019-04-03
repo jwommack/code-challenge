@@ -4,12 +4,14 @@
 Senior Web Developer coding challenge.
 
 ## The Challenge
-You have 24 hours to complete this challange.
+You have 24 hours to get as much done as possible.
 
 - Fork this repo 
 - Set up your dependencies
 - Display the data given to you from the database table in a meaningful way
 - We expect there to be some kind of CRUD functionality
+
+When you are done submit a PR to this repo.
 
 ## Prerequisites
 Below are the required libraries for this challenge, you are welcome to use any other external libraries you see fit to accomplish this task.
