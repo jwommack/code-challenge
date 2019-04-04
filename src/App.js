@@ -24,7 +24,8 @@ const App = ({ classes }) => (
       <Header />
       <main className={classes.main}>
         <Route exact path="/" component={Home} />
-        <Route exact path="/mocks" component={Mocks} />
+        <Route path="/mocks" component={Mocks} />
+        <Route path="/mock" component={Mocks} />
       </main>
     </Fragment>
 );
