@@ -7,7 +7,9 @@ import {
 import { compose } from "recompose";
 import { find, orderBy } from "lodash";
 import MockEditor from "../components/MockEditor";
+//import db from "sqlite";
 
+const _ = require("lodash");
 const styles = theme => ({
     posts: {
         marginTop: 2 * theme.spacing.unit,
@@ -32,6 +34,7 @@ class Mocks extends Component {
         this.state = {
             loading: true,
             mocks: [],
+            lastId: null,
         };
     }
 
@@ -64,17 +67,22 @@ class Mocks extends Component {
         let action = "post";
         let updateId = "";
         if (mock.id) {
+            console.log("currently in update move "+ mock.id)
             action = "put";
             updateId = `/${mock.id}`;
+        } else {
+            // Dumb hacky workaround due to time
+            mock.id = _.maxBy(this.state.mocks, "id").id+1;
+            console.log("update id now "+ mock.id);
         }
-        await this.fetch(action, `/mocks${updateId}`, mock);
+        await this.fetch(action, `/mock${updateId}`, mock);
         this.props.history.goBack();
         this.getMocks();
     };
 
     async deleteMock(mock) {
         if (window.confirm(`You are about to permanently delete record ${mock.id}?`)) {
-            await this.fetch("delete", `/mocks/${mock.id}`);
+            await this.fetch("delete", `/mock/${mock.id}`);
             this.getMocks();
         }
     }
@@ -109,7 +117,7 @@ class Mocks extends Component {
                             </TableHead>
                             <TableBody>
                                 {orderBy(this.state.mocks, ["id"], ["asc"]).map(mock => (
-                                    <TableRow key={mock.id} button component={Link} to={`/mocks/${mock.id}`}>
+                                    <TableRow key={mock.id} button component={Link} to={`/mock/${mock.id}`}>
                                         <TableCell>{mock.id}</TableCell>
                                         <TableCell>{mock.email}</TableCell>
                                         <TableCell>{mock.message}</TableCell>
@@ -134,9 +142,9 @@ class Mocks extends Component {
                     aria-label="add"
                     className={classes.fab}
                     component={Link}
-                    to="/mocks/new"
+                    to="/mock/new"
                 >  +</Button>
-                <Route exact path="/mocks/:id" render={this.renderMockEditor} />
+                <Route exact path="/mock/:id" render={this.renderMockEditor} />
             </Fragment>
         );
     }
