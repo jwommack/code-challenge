@@ -9,7 +9,6 @@
     "start:server": "node src/server",
     "watch:server": "nodemon --watch src/server src/server",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "repository": {
