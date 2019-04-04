@@ -1,9 +1,8 @@
 import React, { Component, Fragment } from "react";
 import { withRouter, Route, Redirect, Link } from "react-router-dom";
 import {
-    withStyles, Typography, Button, IconButton, Paper, List, ListItem,
-    ListItemText, ListItemSecondaryAction, Table, TableBody, TableHead,
-    TableCell, TablePagination, TableRow, TableSortLabel, Tooltip
+    withStyles, Typography, Button, IconButton, Paper, Table, TableBody, TableHead,
+    TableCell, TableRow
 } from "@material-ui/core";
 import { compose } from "recompose";
 import { find, orderBy } from "lodash";
