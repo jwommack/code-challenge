@@ -125,22 +125,6 @@ class Mocks extends Component {
                                 ))}
                             </TableBody>
                         </Table>
-                        {/*<List columns={5}>*/}
-                            {/*{orderBy(this.state.mocks, ["id"], ["asc"]).map(mock => (*/}
-                                {/*<ListItem key={mock.id} xs={23} button component={Link} dense={true} to={`/mocks/${mock.id}`}>*/}
-                                    {/*<ListItemText xs={1} primary={mock.id} />*/}
-                                    {/*<ListItemText xs={4} secondary={mock.email} />*/}
-                                    {/*<ListItemText xs={6} secondary={mock.message} />*/}
-                                    {/*<ListItemText xs={6} secondary={mock.foo} />*/}
-                                    {/*<ListItemText xs={6} secondary={mock.bar} />*/}
-                                    {/*<ListItemSecondaryAction>*/}
-                                        {/*<IconButton onClick={() => this.deleteMock(mock)} color="inherit">*/}
-                                            {/*X*/}
-                                        {/*</IconButton>*/}
-                                    {/*</ListItemSecondaryAction>*/}
-                                {/*</ListItem>*/}
-                            {/*))}*/}
-                        {/*</List>*/}
                     </Paper>
                 ) : (
                     !this.state.loading && <Typography variant="subheading">No mocks to display</Typography>
